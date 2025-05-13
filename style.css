@@ -1,0 +1,457 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+ .node img{
+    width: 100%;
+    height: auto;
+    color:white;
+    max-width: 200px;
+ }
+
+
+nav{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+   
+}
+nav ul{
+width: 50%;
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+
+
+}
+
+nav ul li{
+    font-size: 15px;
+   
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav.logo{
+    width: 30%;
+    flex-grow: 1;
+    max-width: 150px;
+}
+
+
+nav.logo img{
+    width: 50%;
+}
+ nav ul li a:hover{
+   color:  gold;
+}
+
+header{
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+}
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+   color: #fff;
+    font-family: "Alegreya";
+    text-align: center;
+}
+
+ .hero h5  {
+    font-size: 20px;
+    margin-bottom: 18px;
+    /* opacity: 0.8;  */
+    text-align: center;
+    font-family: "Alegreya", serif;
+    color: #fff;
+}
+
+.hero p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;   
+    font-family: "Alegreya", serif;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    }
+
+.btn-solid {
+    background: #c49a6c;
+    color:white;
+}
+
+.btn-solid:hover {
+    background: white;
+    color: black;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+    color:white;
+}
+
+.btn-outline:hover {
+    background: #fff;
+     color: black;
+}
+
+/* section 1 */
+.about {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about .aboutD {
+    width: 50%;
+}
+
+.aboutD img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.about-text li .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #d35400;
+}
+/*  section 2 */
+
+.location {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.item {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.location-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.location-text {
+    flex: 1;
+}
+
+.location-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.location-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.location-image img {
+    width:100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+ 
+ /* section 3    */
+
+
+.Baking {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}
+ .title h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ 
+.description {
+    font-size: 16px;
+    color: #555;
+     margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.products {
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+
+}
+.product {  
+    padding: 15px;
+    width: 32%;
+}
+.product img {
+   width:100%;
+   height:auto;
+   display: block;
+    margin: auto; 
+   gap: 20px;
+   
+
+}
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+   
+}
+
+.product p{
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #555; 
+    text-align: center; 
+}
+
+
+
+
+  /* تنسيق الخريطه  */
+ .contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+ }
+
+
+  .text {
+            width: 45%;
+        }
+        .text h2 {
+            color: #333;
+            font-family: "Oleo Script", system-ui;
+
+        }
+        .text p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .map {
+            width: 50%;
+        }
+        iframe {
+            width: 100%;
+            height: 350px;
+            border-radius: 10px;
+            border: none;
+        }
+
+  
+/* section 6 */
+
+/* تصميم الفوتر */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 15px;
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+}
+
+.footer-bottom h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #222;
+}
+
+.footer-bottom .logo img {
+    width: 120px; /* حجم اللوجو */
+    margin-bottom: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 18px;
+    color: #bbb;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:1200px) and (min-width:992px){
+      
+    .baking .baking-item{
+         width: 25%
+     }
+ }
+ @media screen and (max-width:991px) and (min-width:768px){
+     
+     .baking .baking-item{
+          width: 33.33%
+      }
+  }
+ 
+  @media screen and (max-width:767px) and (min-width:600px){
+     
+     .baking .baking-item{
+          width: 50%
+      }
+  }
+  @media screen and  (max-width:599px){
+     
+     .baking .baking-item{
+          width: 100%
+      }
+  }
+
+
